@@ -35,3 +35,8 @@ header a {
 .portrait {
     width:250px;
 }
+
+p.description{
+    text-align: justify;
+    text-indent: 5%;
+}
