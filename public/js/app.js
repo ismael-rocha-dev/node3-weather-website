@@ -15,7 +15,7 @@ const p2 = document.querySelector('#p2')
 
 weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault()
-    console.log('form submited')
+    
 
     const place = encodeURI(weatherInput.value)
 
