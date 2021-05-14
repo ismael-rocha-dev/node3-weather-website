@@ -27,7 +27,7 @@ weatherForm.addEventListener('submit',(e)=>{
         } else{
             p1.textContent = data.location
            const day_night = data.forecast.is_day=="yes"?"It is day":" It is night"
-            p2.textContent = data.forecast.weather_descriptions + ". The temperature is " + data.forecast.temperature +"°C . It feels like " + data.forecast.feelslike + "°C. " + day_night
+            p2.textContent = data.forecast.weather_descriptions + ". The temperature is " + data.forecast.temperature +"°C . It feels like " + data.forecast.feelslike + "°C. " + day_night + ". The humidity is: " + data.forecast.humidity
             console.log(data.forecast) 
         }   
         
